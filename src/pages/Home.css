@@ -1,0 +1,60 @@
+.home__Products {
+  text-align: center;
+}
+
+.home__ourProducts {
+  display: flex;
+  font-family: "Jelligun";
+  font-size: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnail {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.img-thumbnail {
+  transition: transform 0.8s;
+  border: none;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.home-viewcakes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.viewcakes {
+  padding-inline: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 0;
+  background-color: #e7adcf;
+  color: #fff;
+}
+
+.viewcakes:hover {
+  transition: 0.3s;
+  background-color: #bf7ea4;
+}
+
+@media only screen and (max-width: 768px) {
+  .home__ourProducts {
+    font-size: 50px;
+  }
+}
