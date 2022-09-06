@@ -6,8 +6,8 @@ export default function Slider() {
     <div className="image__carousel">
       <div
         id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="false"
+        class="carousel slide "
+        data-bs-ride="carousel"
       >
         <div class="carousel-indicators">
           <button
@@ -32,7 +32,7 @@ export default function Slider() {
           ></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active" data-bs-interval="8000">
             <img
               src="https://res.cloudinary.com/ddt5pwieo/image/upload/v1662382862/Toronto%20Cupcakes/Slide1_ki2jw9.png"
               class="d-block"
@@ -45,7 +45,7 @@ export default function Slider() {
               </p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="6000">
             <img
               src="https://res.cloudinary.com/ddt5pwieo/image/upload/v1662381510/Toronto%20Cupcakes/Untitled-1_dscs9r.png"
               class="d-block"
@@ -59,7 +59,7 @@ export default function Slider() {
               </p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="6000">
             <img
               src="https://res.cloudinary.com/ddt5pwieo/image/upload/v1662383777/Toronto%20Cupcakes/Slide3_v1kr0d.png"
               class="d-block"

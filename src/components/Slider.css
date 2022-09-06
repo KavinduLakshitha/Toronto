@@ -5,8 +5,7 @@
 
 .carousel-item {
   position: relative;
-  display: none;
-  height: 32rem;
+  height: auto;
   float: left;
   width: 100%;
   margin-right: -100%;

@@ -26,6 +26,12 @@ function Home() {
                   className="img-thumbnail"
                 />
               </a>
+              <div className="featured__textItem">
+                <h5 className="featured__Text">Holiday Cupcakes</h5>
+                <button type="button" class="btn btn-primary viewcakes">
+                  Show
+                </button>
+              </div>
             </div>
           </div>
           <div className="col-md-4 p-3">
@@ -37,6 +43,12 @@ function Home() {
                   className="img-thumbnail"
                 />
               </a>
+              <div className="featured__textItem">
+                <h5 className="featured__Text">Special Events</h5>
+                <button type="button" class="btn btn-primary viewcakes">
+                  Show
+                </button>
+              </div>
             </div>
           </div>
           <div className="col-md-4 p-3">
@@ -48,6 +60,12 @@ function Home() {
                   className="img-thumbnail"
                 />
               </a>
+              <div className="featured__textItem">
+                <h5 className="featured__Text">Custom Cupcakes</h5>
+                <button type="button" class="btn btn-primary viewcakes">
+                  Show
+                </button>
+              </div>
             </div>
           </div>
         </div>

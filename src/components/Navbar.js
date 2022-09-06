@@ -3,7 +3,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav class="navbar navbar-expand-lg fixed-top">
-      <a class="navbar-brand" href="/home">
+      <a class="navbar-brand" href="/">
         <img
           src="https://res.cloudinary.com/ddt5pwieo/image/upload/v1661958029/Toronto%20Cupcakes/Toronto_Cupcakes_nnntsl.png"
           width="auto"
@@ -42,7 +42,7 @@ function Navbar() {
             <a
               class="nav-link"
               aria-current="page"
-              href="/home"
+              href="/"
               spy={true}
               data-bs-toggle="collapse"
               data-bs-target=".navbar-collapse.show"
